@@ -52,7 +52,7 @@ var a2 = {
 
 console.log(Object.keys(a2));
 
-// 属性的删除 delect   删除成功后返回true
+// 属性的删除 delete   删除成功后返回true
 delete a2.key1;
 console.log(a2.key1);   //undefined
 console.log(Object.keys(a2));   
